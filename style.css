@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.navbar-kiri {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-tengah {
+  flex: 1;
+  max-width: 600px;
+  margin: 0 24px;
+  border: 4pt;
+  border-radius: 4px;
+}
+
+.navbar-tengah input {
+  width: 100%;
+  padding: 10px 16px;
+}
+
+.tombol-menu img {
+  width: 48px;
+  height: 48px;
+}
+
+.tombol-youtube {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  align-items: center;
+  display: flex;
+}
+
+.tombol-youtube img {
+   width: 40px;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+.tombol-profil {
+  margin-left: auto;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.tombol-profil img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  gap: 24px;
+  padding: 20px;
+}
+
+.layout-video {
+  width: 100%;
+  max-width: 1000px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.layout-video iframe {
+  display: block;
+  width: 90%;
+  aspect-ratio: 16 / 9;
+  border: 2px;
+}
+
+.tombol-menu {
+  background: transparent;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.tombol-menu img {
+  width: 48px;
+  height: 48pxpx;
+}
+
+.konten {
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+.konten p {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding-left: 40px;
+    color: white;
+}
+
+.rekomendasi {
+    color: white;
+}
+
+.kartu-rekomendasi {
+  display: _____;
+  color: white;
+  text-decoration: none;
+}
+
+.thumbnail {
+  width: 168px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.tombol-flex {
+    display: flex;
+    border: none;
+  color: white;
+  padding: 16px 0px;
+  text-decoration: none;
+  font-size: 16px;
+  justify-content: flex-start;
+}
+.tombol-semua:hover {
+    transition-duration: 0.4s;
+    background-color: white; 
+  color: black; 
+  border: 2px solid #000000;
+}
+
+.tombol-ditonton:hover {
+    transition-duration: 0.4s;
+    background-color: white; 
+  color: black; 
+  border: 2px solid #000000;
+}
